@@ -1,15 +1,13 @@
 import './App.css';
-import HomePage from './components/HomePage';
-import BookingPage from './components/BookingPage';
-import About from './components/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarComponet from './components/NavbarComponet';
+
+
+// data from the json- server will be fetched, posted and deleted 
 
 function App() {
   return (
-    <div className="NavBar">
-      <HomePage/>
-      <BookingPage/>
-      <About/>
-    </div>
+    <NavbarComponet />
   );
 }
 
