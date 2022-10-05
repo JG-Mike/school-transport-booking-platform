@@ -1,0 +1,23 @@
+{
+    "bookingInfo":[
+        {
+            "id": 1,
+            "name": "Michael kamau Gichuhi",
+            "location":"Nairobi",
+            "contancts": "079999990"
+        },
+         {
+            "id": 2,
+            "name": "James Bond",
+            "location":"Wayaki",
+            "contancts": "079999991"
+        },
+         {
+            "id": 3,
+            "name": "faith Njoki",
+            "location":"Nyeri",
+            "contancts": "079999992"
+        }
+
+    ]
+}
