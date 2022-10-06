@@ -17,6 +17,30 @@
       "names": "faith Njoki",
       "location": "Nyeri",
       "contacts": "079999992"
+    },
+    {
+      "names": "test 1",
+      "location": "name",
+      "contacts": "123",
+      "id": 4
+    },
+    {
+      "names": "test 2",
+      "location": "test 2",
+      "contacts": "1123",
+      "id": 5
+    },
+    {
+      "names": "test 3",
+      "location": "location",
+      "contacts": "1234",
+      "id": 6
+    },
+    {
+      "names": "alvin",
+      "location": "rongai",
+      "contacts": "0722332989",
+      "id": 7
     }
   ]
 }

@@ -11,7 +11,7 @@ function BookingForm({list}) {
     const[location, setLocation] = useState("");
     const[contacts, setContacts] = useState("");
     const url ='http://localhost:3000/bookingInfo'
-    // const history = useNavigate()
+    const autoNavigate = useNavigate()
 
 
 
@@ -23,7 +23,7 @@ function BookingForm({list}) {
             headers:{"Content-Type": "application/json"},
             body:JSON.stringify(newData)
         }).then(() => console.log("person added to bookList"))
-        //history("/list")
+        autoNavigate("/list")
 
     }
 
@@ -32,7 +32,7 @@ function BookingForm({list}) {
         <h2>Book Now</h2>
     <div className='color-overlay d-flex justify-content-center algin-item-center'>
         {/* the input form */}
-    <Form className='rounded p-4 p-sm-3' onClick={handleSubmit}>
+    <Form className='rounded p-4 p-sm-3' onSubmit={handleSubmit}>
 
            {/* name input */}
       <Form.Group className="mb-3" controlId="formBasicEmail">
