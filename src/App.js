@@ -15,14 +15,14 @@ function App() {
   useEffect(() =>{
     fetch(url)
     .then(res => res.json())
-    .then(setList)
+    .then(data => setList(data))
   }
   ,[])
 
   
 
   return (
-    <NavbarComponet list={list}/>
+     <NavbarComponet list={list}/>
   );
 }
 

@@ -1,7 +1,7 @@
 import { useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-// import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 
 // this is where the client will fill in the necessary details
 
@@ -28,6 +28,8 @@ function BookingForm({list}) {
     }
 
   return (
+    <div className='bookingForm'>
+        <h2>Book Now</h2>
     <div className='color-overlay d-flex justify-content-center algin-item-center'>
         {/* the input form */}
     <Form className='rounded p-4 p-sm-3' onClick={handleSubmit}>
@@ -67,6 +69,7 @@ function BookingForm({list}) {
         Submit
       </Button>
     </Form>
+    </div>
     </div>
   );
 }

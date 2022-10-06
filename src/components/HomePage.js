@@ -1,8 +1,13 @@
+import HomeImage from "./Home_Syling/HomeImage"
+
 
 // function will display an image and some encouragement text 
 function HomePage(){
     return(
-        <h1>Home</h1>
+    <div>
+        
+      <HomeImage/>
+      </div>
     )
 }
 

@@ -1,5 +1,10 @@
-
-form{
-  background-color: blue;
+h1{
+  height: 600px;
+}
+.bookingForm{
+  justify-content:center ;
+}
+h2{
+  text-align: center;
   
 }
