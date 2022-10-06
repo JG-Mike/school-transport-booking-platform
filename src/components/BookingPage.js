@@ -1,10 +1,9 @@
 import BookingForm from "./BookingForm"
-import bookingList from "./BookedList"
 
 // will diplay data from the booking form and and the booking list provided
-function BookingPage(){
+function BookingPage({list}){
     return(
-        <h1>Book Now</h1>
+        <BookingForm  list ={list}/>
     )
 }
 

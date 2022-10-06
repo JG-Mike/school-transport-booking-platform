@@ -1,12 +1,12 @@
 import HomePage from './HomePage';
 import BookingPage from './BookingPage';
-import About from './About';
+import List from './List';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 
-function NavbarComponet() {
+function NavbarComponet({list}) {
     return(
       <Router>
         <div className="NavBar">
@@ -21,7 +21,7 @@ function NavbarComponet() {
             navbarScroll
           >
             <Nav.Link as={Link} to= {"/homePage"}>Home</Nav.Link>
-            <Nav.Link as={Link} to= {"/about"}>About</Nav.Link>
+            <Nav.Link as={Link} to= {"/list"}>List</Nav.Link>
             <Nav.Link as={Link} to= {"/bookingPage"}>Book Now</Nav.Link>
           
           </Nav>
@@ -32,8 +32,8 @@ function NavbarComponet() {
     </div>
     <div>
         <Routes>
-          <Route path="/homePage" element={<HomePage />} />
-          <Route path="/about" element={<About />} />
+          <Route exact path="/homePage" element={<HomePage />} />
+          <Route path="/list" element={<List list={list} />} />
           <Route path="/bookingPage" element={<BookingPage />} />
         </Routes>
     </div>
