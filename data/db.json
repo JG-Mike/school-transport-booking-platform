@@ -41,6 +41,12 @@
       "location": "rongai",
       "contacts": "0722332989",
       "id": 7
+    },
+    {
+      "names": "friday",
+      "location": "moringa",
+      "contacts": "1223",
+      "id": 8
     }
   ]
 }

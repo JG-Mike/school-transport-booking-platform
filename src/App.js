@@ -10,7 +10,8 @@ function App() {
   const [list, setList] = useState([])
  
 
-  const url ='http://localhost:3000/bookingInfo'
+  // const url ='http://localhost:3000/bookingInfo'
+  const url ="https://transport-data-list.herokuapp.com/bookingInfo"
 
   useEffect(() =>{
     fetch(url)

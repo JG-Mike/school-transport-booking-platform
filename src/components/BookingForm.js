@@ -10,7 +10,10 @@ function BookingForm({list}) {
     const[names, setName] = useState("");
     const[location, setLocation] = useState("");
     const[contacts, setContacts] = useState("");
-    const url ='http://localhost:3000/bookingInfo'
+    // const url ='http://localhost:3000/bookingInfo'
+      const url ="https://transport-data-list.herokuapp.com/bookingInfo"
+
+
     const autoNavigate = useNavigate()
 
 
