@@ -17,6 +17,8 @@ return(
         </tr>
       </thead>
       <tbody>
+
+        {/* mapping through my json server and desplaying it in a table format */}
         {students.map(data =>
         <tr key={data.id}>
             <td>{data.names}</td>
