@@ -34,6 +34,7 @@ function BookingForm({list}) {
     <div className='bookingForm'>
         <h2>Book Now</h2>
     <div className='color-overlay d-flex justify-content-center algin-item-center'>
+      
         {/* the input form */}
     <Form className='rounded p-4 p-sm-3' onSubmit={handleSubmit}>
 
