@@ -12,7 +12,7 @@ function NavbarComponet({list}) {
         <div className="NavBar">
     <Navbar bg="dark" variant={"dark"} expand="lg">
       <Container fluid>
-        
+
         {/* <Navbar.Brand href="#">School Transport Booking</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -21,6 +21,7 @@ function NavbarComponet({list}) {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
+            {/* linking the home pages link to the correct routes */}
             <Nav.Link as={Link} to= {"/homePage"}>Home</Nav.Link>
             <Nav.Link as={Link} to= {"/list"}>List</Nav.Link>
             <Nav.Link as={Link} to= {"/bookingPage"}>Book Now</Nav.Link>
