@@ -21,6 +21,7 @@ function NavbarComponet({list}) {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
+
             {/* linking the home pages link to the correct routes */}
             <Nav.Link as={Link} to= {"/homePage"}>Home</Nav.Link>
             <Nav.Link as={Link} to= {"/list"}>List</Nav.Link>
@@ -33,6 +34,8 @@ function NavbarComponet({list}) {
     </Navbar>
     </div>
     <div>
+      
+      {/* linking the routes to the right components */}
         <Routes>
           <Route exact path="/homePage" element={<HomePage />} />
           <Route path="/list" element={<List list={list} />} />
