@@ -5,7 +5,6 @@ import HomeImage from "./Home_Syling/HomeImage"
 function HomePage(){
     return(
     <div>
-        
       <HomeImage/>
       </div>
     )

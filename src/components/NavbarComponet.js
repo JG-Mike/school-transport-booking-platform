@@ -12,6 +12,7 @@ function NavbarComponet({list}) {
         <div className="NavBar">
     <Navbar bg="dark" variant={"dark"} expand="lg">
       <Container fluid>
+        
         {/* <Navbar.Brand href="#">School Transport Booking</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
