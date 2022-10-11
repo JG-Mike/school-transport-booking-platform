@@ -3,7 +3,8 @@ import Carousel from 'react-bootstrap/Carousel';
 function HomeImage() {
   return (
 
-    // designing the home page with picture slide
+    // designing the home page with picture slide using react-bootstrap
+    
     <Carousel>
       <Carousel.Item interval={1000}>
         <img
