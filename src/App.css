@@ -5,6 +5,7 @@ h1{
 /* styling booking form */
 .bookingForm{
   justify-content:center ;
+  float: left;
 }
 
 /*styling my h2 tags */
